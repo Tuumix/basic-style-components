@@ -4,7 +4,7 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: white;
+  background-color: ${({theme}) => theme.inside};
   border-radius: 5px;
   box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.04);
   padding: 20px;
@@ -26,6 +26,15 @@ export const Botao = styled.button`
   font-size: 14px;
   padding: 8px 20px;
   cursor: pointer;
+`
+
+export const BtnTema = styled.button`
+    position: absolute;
+    top: 4vh;
+    right: 20px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
 `
 
 export const Icone = styled.img`

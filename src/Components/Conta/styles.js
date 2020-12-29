@@ -6,7 +6,7 @@ export const Saldo = styled.div`
 `
 
 export const Detalhe = styled.span`
-  color: #41d3be;
+  color: ${({theme}) => theme.text};
   font-size: 24px;
 `
 
