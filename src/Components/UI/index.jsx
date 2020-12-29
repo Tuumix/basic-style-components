@@ -42,6 +42,10 @@ export const Icone = styled.img`
     width: 25px;
 `
 
+export const IconeTema = styled(Icone)`
+  filter: ${({theme}) => theme.filter};
+`
+
 export const IconeSecundario = styled(Icone)`
     margin-top: 2px;
 `

@@ -11,7 +11,7 @@ import {
 const Container = () => {
   return (
     <Main>
-      <Titulo>Olá Fulano!</Titulo>
+      <Titulo>Olá, Tumi lindo!</Titulo>
       <Conteudo>
         <Conta />
         <Extrato />

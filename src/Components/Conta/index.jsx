@@ -8,7 +8,8 @@ import {
   Box,
   Icone,
   IconeSecundario,
-  Botao
+  Botao,
+  IconeTema
 } from '../UI/index';
 
 import {
@@ -30,7 +31,7 @@ const Conta = () => {
       <SubBox>
         Saldo disponível{" "}
         <span>
-          <Icone src={dinheiro} alt="Ícone Saldo" />
+          <IconeTema src={dinheiro} alt="Ícone Saldo" />
         </span>
         {toggleState ? (
           <Saldo>
