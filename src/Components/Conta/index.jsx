@@ -6,7 +6,6 @@ import dinheiro from "../../assets/images/dinheiro.svg";
 
 import {
   Box,
-  Icone,
   IconeSecundario,
   Botao,
   IconeTema

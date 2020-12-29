@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {fundoClaro} from '../UI/variaveis';
 
 export const Main = styled.div`
   background-color: ${({theme}) => theme.body};

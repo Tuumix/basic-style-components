@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Botao } from '../UI'
+import { Box } from '../UI'
 import { extratoLista } from '../../info';
 import Items from '../Items';
 
